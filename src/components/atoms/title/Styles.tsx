@@ -5,7 +5,7 @@ export interface TitleStyledProps{
     color?: string
 }
 
-export const Title = styled.h1<TitleStyledProps>`
+export const Title = styled.h2<TitleStyledProps>`
     font-size: ${({fontSize})=> fontSize ?? "16px"} ;
     color: ${({color})=> color ?? "Black"};
     font-family: "Roboto", sans-serif;
