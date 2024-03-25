@@ -5,6 +5,7 @@ import { Section } from "../organisms/section/Index"
 import iphoneFrontSide from "../../assets/iphoneFrontSide.jpg"
 import iphoneRightSide from "../../assets/iphoneRightSide.jpg"
 import iphoneWhite from "../../assets/iphoneWhite.jpg"
+import { Contact } from "../organisms/contact/Index"
 
 const mocks = [
     {
@@ -33,6 +34,7 @@ export const HomeTemplate = ()=>{
             <Section sourceImg={iphoneFrontSide} titleContent="Inovação Contínua: Conheça o Novo iPhone" paragraphContent={mocks[0].paragraphContent}/>
             <Section reversed sourceImg={iphoneRightSide } titleContent="Desempenho Excepcional: Descubra as Novas Funcionalidades do iPhone" paragraphContent={mocks[1].paragraphContent}/>
             <Section sourceImg={iphoneWhite} titleContent="Estilo e Sofisticação: Explorando o Design do iPhone" paragraphContent={mocks[2].paragraphContent}/>
+            <Contact/>
         </>
     )
 }
