@@ -1,11 +1,12 @@
 import { Banner } from "../organisms/banner/Index"
 import { Benefits } from "../organisms/benefits/Index"
 import { Section } from "../organisms/section/Index"
+import { Contact } from "../organisms/contact/Index"
+import { Footer } from "../organisms/footer/Index"
 
 import iphoneFrontSide from "../../assets/iphoneFrontSide.jpg"
 import iphoneRightSide from "../../assets/iphoneRightSide.jpg"
 import iphoneWhite from "../../assets/iphoneWhite.jpg"
-import { Contact } from "../organisms/contact/Index"
 
 const mocks = [
     {
@@ -35,6 +36,7 @@ export const HomeTemplate = ()=>{
             <Section reversed sourceImg={iphoneRightSide } titleContent="Desempenho Excepcional: Descubra as Novas Funcionalidades do iPhone" paragraphContent={mocks[1].paragraphContent}/>
             <Section sourceImg={iphoneWhite} titleContent="Estilo e Sofisticação: Explorando o Design do iPhone" paragraphContent={mocks[2].paragraphContent}/>
             <Contact/>
+            <Footer/>
         </>
     )
 }
