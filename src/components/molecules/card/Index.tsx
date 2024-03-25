@@ -4,7 +4,7 @@ import { Paragraph } from "../../atoms/paragraph/Index"
 import { ReactNode } from "react"
 
 interface CardProps{
-    children: ReactNode;
+    children?: ReactNode;
     titleContent: string;
     paragraphContent: string
 }
